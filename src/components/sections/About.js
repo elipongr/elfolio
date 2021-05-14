@@ -69,8 +69,13 @@ function About() {
                                 <div className="col-md-6">
                                     <p>{aboutContent.content}</p>
                                     <div className="mt-3">
-                                        <a href="!#" className="btn btn-default">
-                                            Download CV
+                                        <a href="files/Lebenslauf_Elizar_Pongracz.pdf" download className="btn btn-default">
+                                            Download CV [GER]
+                                        </a>
+                                    </div>
+                                    <div className="mt-3">
+                                        <a href="files/CV_Elizar_Pongracz.pdf" download className="btn btn-default">
+                                            Download CV [ENG]
                                         </a>
                                     </div>
                                     <div
