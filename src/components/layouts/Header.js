@@ -50,7 +50,7 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-home"></i>Home
+                                <i className="icon-home"/>Home
                             </Link>
                         </li>
                         <li>
@@ -61,7 +61,7 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-user-following"></i>About
+                                <i className="icon-user-following"/>About
                             </Link>
                         </li>
                         <li>
@@ -72,18 +72,29 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-briefcase"></i>Services
+                                <i className="icon-book-open"/>Services
                             </Link>
                         </li>
                         <li>
                             <Link
                                 activeClass="active"
-                                to="section-experiences"
+                                to="section-experience"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-graduation"></i>Experience
+                                <i className="icon-briefcase"/>Experience
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="section-education"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                <i className="icon-graduation"/>Education
                             </Link>
                         </li>
                         <li>
@@ -94,7 +105,7 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-layers"></i>Works
+                                <i className="icon-layers"/>Works
                             </Link>
                         </li>
                         <li>
@@ -105,7 +116,7 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-note"></i>Blog
+                                <i className="icon-note"/>Blog
                             </Link>
                         </li>
                         <li>
@@ -116,7 +127,7 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                                 smooth={true}
                                 duration={500}
                             >
-                                <i className="icon-bubbles"></i>Contact
+                                <i className="icon-bubbles"/>Contact
                             </Link>
                         </li>
                     </ul>

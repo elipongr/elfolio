@@ -47,22 +47,22 @@ function Herosection(props) {
                     <ul className="social-icons light list-inline mb-0 mt-4">
                         <li className="list-inline-item">
                             <a href="https://www.instagram.com/eli.pongr/">
-                                <i className="fab fa-instagram"></i>
+                                <i className="fab fa-instagram"/>
                             </a>
                         </li>
                         <li className="list-inline-item">
                             <a href="https://twitter.com/ElizarPongracz">
-                                <i className="fab fa-twitter"></i>
+                                <i className="fab fa-twitter"/>
                             </a>
                         </li>
                         <li className="list-inline-item">
                             <a href="https://github.com/elipongr">
-                                <i className="fab fa-github"></i>
+                                <i className="fab fa-github"/>
                             </a>
                         </li>
                         <li className="list-inline-item">
                             <a href="https://www.linkedin.com/in/elizarpongracz/">
-                                <i className="fab fa-linkedin"></i>
+                                <i className="fab fa-linkedin"/>
                             </a>
                         </li>
                     </ul>
@@ -90,7 +90,7 @@ function Herosection(props) {
                     >
                         <span>Scroll Down</span>
                         <span className="mouse">
-              <span className="wheel"></span>
+              <span className="wheel"/>
             </span>
                     </Link>
                 </div>

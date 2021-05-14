@@ -46,10 +46,10 @@ function Homepage() {
                 <Element name="section-services">
                     <Services/>
                 </Element>
-                <Element name="section-experiences">
+                <Element name="section-experience">
                     <Experience/>
                 </Element>
-                <Element name="section-experiences">
+                <Element name="section-education">
                     <Education/>
                 </Element>
                 <Element name="section-works">

@@ -138,7 +138,7 @@ function Bloglist() {
         headerToggler={headerToggler}
       />
       <main className={toggleMenu ? "content open" : "content"}>
-        <div className="spacer" data-height="96"></div>
+        <div className="spacer" data-height="96"/>
         <div className="blog-page-section">
           <div className="container">
             <div className="row blog-wrapper fix-spacing">
@@ -148,7 +148,7 @@ function Bloglist() {
                 </div>
               ))}
             </div>
-            <div className="spacer" data-height="50"></div>
+            <div className="spacer" data-height="50"/>
             {!(posts.length > postsPerPage) ? null : (
               <Pagination
                 itemsPerPage={postsPerPage}
@@ -159,7 +159,7 @@ function Bloglist() {
             )}
           </div>
         </div>
-        <div className="spacer" data-height="96"></div>
+        <div className="spacer" data-height="96"/>
       </main>
     </>
   );

@@ -1,20 +1,12 @@
 import React from "react";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Bloglist from "./pages/Bloglist";
-import BlogDetails from "./pages/BlogDetails";
 import "./App.scss";
 
 function App() {
     return (
         <BrowserRouter>
-            <Switch>
-                <Route path="/" exact>
-                    <Homepage/>
-                </Route>
-                <Route path="/blogs" component={Bloglist} exact/>
-                <Route path="/blogs/blog-details/:id/:title" component={BlogDetails}/>
-            </Switch>
+            <Homepage/>
         </BrowserRouter>
     );
 }
