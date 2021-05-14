@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/elfolio/static/css/main.2521cc89.chunk.css",
+    "main.js": "/elfolio/static/js/main.ad3b8064.chunk.js",
+    "main.js.map": "/elfolio/static/js/main.ad3b8064.chunk.js.map",
+    "runtime-main.js": "/elfolio/static/js/runtime-main.be8c152d.js",
+    "runtime-main.js.map": "/elfolio/static/js/runtime-main.be8c152d.js.map",
+    "static/css/2.3a340521.chunk.css": "/elfolio/static/css/2.3a340521.chunk.css",
+    "static/js/2.afdee29c.chunk.js": "/elfolio/static/js/2.afdee29c.chunk.js",
+    "static/js/2.afdee29c.chunk.js.map": "/elfolio/static/js/2.afdee29c.chunk.js.map",
+    "index.html": "/elfolio/index.html",
+    "precache-manifest.57bf6066378b93db09b82c9b74f00485.js": "/elfolio/precache-manifest.57bf6066378b93db09b82c9b74f00485.js",
+    "service-worker.js": "/elfolio/service-worker.js",
+    "static/css/2.3a340521.chunk.css.map": "/elfolio/static/css/2.3a340521.chunk.css.map",
+    "static/css/main.2521cc89.chunk.css.map": "/elfolio/static/css/main.2521cc89.chunk.css.map",
+    "static/js/2.afdee29c.chunk.js.LICENSE.txt": "/elfolio/static/js/2.afdee29c.chunk.js.LICENSE.txt",
+    "static/media/best-app-development-tool.md": "/elfolio/static/media/best-app-development-tool.70f40b0f.md",
+    "static/media/common-misconceptions-about-payment.md": "/elfolio/static/media/common-misconceptions-about-payment.bdea94e6.md",
+    "static/media/slick-theme.css": "/elfolio/static/media/slick.f97e3bbf.svg",
+    "static/media/things-to-know-about-startup-business.md": "/elfolio/static/media/things-to-know-about-startup-business.78d24824.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be8c152d.js",
+    "static/css/2.3a340521.chunk.css",
+    "static/js/2.afdee29c.chunk.js",
+    "static/css/main.2521cc89.chunk.css",
+    "static/js/main.ad3b8064.chunk.js"
+  ]
+}
