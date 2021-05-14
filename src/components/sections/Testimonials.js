@@ -7,8 +7,8 @@ const sliderData = [
   {
     id: 1,
     avatar: "images/avatar-1.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "Nicolas Yates",
+    subtitle: "Software engineer apprentice at Swisscom",
     review:
       "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
   },
