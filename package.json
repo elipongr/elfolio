@@ -1,7 +1,7 @@
 {
   "name": "elfolio",
-  "homepage": "https://elipongr.github.io/elfolio/",
-  "version": "1.0.2",
+  "homepage": ".",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

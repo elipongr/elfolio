@@ -407,7 +407,7 @@ select.portfolio-filter-mobile {
 
 	.icon {
 		font-size: 36px;
-		color: #DEDEEA;
+		color: $colormiddle;
 		float: left;
 	}
 
@@ -509,7 +509,7 @@ select.portfolio-filter-mobile {
 	}
 
 	.subtitle {
-		color: #8B88B1;
+		color: $colorlighterdark;
 		font-size: 14px;
 	}
 
@@ -585,7 +585,7 @@ select.portfolio-filter-mobile {
 
 	.meta {
 		font-size: 14px;
-		color: #8B88B1;
+		color: $colorlighterdark;
 
 		li:not(:last-child) {
 			margin-right: 0.6rem;
@@ -594,7 +594,7 @@ select.portfolio-filter-mobile {
 		li {
 			&:after {
 				content: '';
-				background: #8B88B1;
+				background: $colorlighterdark;
 				border-radius: 50%;
 				;
 				display: inline-block;
@@ -665,12 +665,12 @@ select.portfolio-filter-mobile {
 
 	.blog-standard .meta {
 		font-size: 14px;
-		color: #8b88b1;
+		color: $colorlighterdark;
 	}
 
 	.blog-standard .meta li:after {
 		content: "";
-		background: #8b88b1;
+		background: $colorlighterdark;
 		border-radius: 50%;
 		display: inline-block;
 		height: 3px;
