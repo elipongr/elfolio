@@ -44,6 +44,12 @@ const counterData = [
     },
     {
         id: 2,
+        title: "Chocolate bars",
+        count: end.diff(moment("2006-11-10"), "days"),
+        icon: "icon-globe-alt",
+    },
+    {
+        id: 3,
         title: "Bottles of water",
         count: end.diff(moment("2001-09-22"), "days"),
         icon: "icon-drop",
