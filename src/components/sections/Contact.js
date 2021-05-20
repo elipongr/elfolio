@@ -1,14 +1,16 @@
 import React, {useState} from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import emailjs from 'emailjs-com';
 
 function Contact() {
-    const [formdata, setFormdata] = useState({
+    const initialFormData = {
         name: "",
         email: "",
         subject: "",
         message: "",
-    });
+    };
+    const [formdata, setFormdata] = useState(initialFormData);
 
     const [error, setError] = useState(false);
     const [message, setMessage] = useState("");
@@ -29,8 +31,13 @@ function Contact() {
             setMessage("Message is required");
         } else {
             setError(false);
-
-            setMessage("You message has been sent!!!");
+            emailjs.sendForm('gmail', 'elipongr_template', event.target, 'user_dKaaRMtC20dVkKxVly3Tq')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+            setFormdata(initialFormData);
         }
     };
 

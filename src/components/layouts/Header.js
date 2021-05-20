@@ -111,6 +111,17 @@ function Header({light, logoSource, toggleMenu, headerToggler}) {
                         <li>
                             <Link
                                 activeClass="active"
+                                to="section-feedback"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                <i className="icon-notebook"/>Feedback
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="active"
                                 to="section-contact"
                                 spy={true}
                                 smooth={true}

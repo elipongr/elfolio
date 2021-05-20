@@ -42,6 +42,9 @@ function Homepage() {
                 <Element name="section-about">
                     <About/>
                 </Element>
+                <Element name="section-brandlogos">
+                    <Brandlogos/>
+                </Element>
                 <Element name="section-services">
                     <Services/>
                 </Element>
@@ -54,16 +57,13 @@ function Homepage() {
                 <Element name="section-works">
                     <Works/>
                 </Element>
-                <Element name="section-testimoninal">
+                <Element name="section-feedback">
                     <Testimonials/>
-                </Element>
-                <Element name="section-brandlogos">
-                    <Brandlogos/>
                 </Element>
                 <Element name="section-contact">
                     <Contact/>
                 </Element>
-                <div className="spacer" data-height="96"></div>
+                <div className="spacer" data-height="96"/>
             </main>
         </>
     );
